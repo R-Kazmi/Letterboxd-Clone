@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Letterboxd-Clone/static/css/main.51f1de53.css",
+    "main.js": "/Letterboxd-Clone/static/js/main.782dad4c.js",
+    "index.html": "/Letterboxd-Clone/index.html",
+    "main.51f1de53.css.map": "/Letterboxd-Clone/static/css/main.51f1de53.css.map",
+    "main.782dad4c.js.map": "/Letterboxd-Clone/static/js/main.782dad4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51f1de53.css",
+    "static/js/main.782dad4c.js"
+  ]
+}
