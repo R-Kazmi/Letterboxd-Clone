@@ -10,9 +10,9 @@ const FilmCard = (props) => {
 
     const onClick2 = () => {
         if (istv) {
-            navigate(`/tv-detail/${id}`)
+            navigate(`/letterboxd/tv-detail/${id}`)
         } else {
-            navigate(`/movie-detail/${id}`);
+            navigate(`/letterboxd/movie-detail/${id}`);
         }
     }
 

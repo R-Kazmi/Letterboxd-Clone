@@ -19,13 +19,13 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Films />} />
-        <Route path="/searchFilms" element={<SearchFilm />} />
-        <Route path="/movie-detail/:movieId" element={<MovieDetail />} />
-        <Route path="/tv-detail/:tvId" element={<TvDetail />} />
-        <Route path="/watchlist/:userId" element={<Watchlist />} />
-        <Route path="/diary/:userId" element={<Diary />} />
-        <Route path="/journal" element={<Journal />} />
+        <Route path="/letterboxd" element={<Films />} />
+        <Route path="/letterboxd/searchFilms" element={<SearchFilm />} />
+        <Route path="/letterboxd/movie-detail/:movieId" element={<MovieDetail />} />
+        <Route path="/letterboxd/tv-detail/:tvId" element={<TvDetail />} />
+        <Route path="/letterboxd/watchlist/:userId" element={<Watchlist />} />
+        <Route path="/letterboxd/diary/:userId" element={<Diary />} />
+        <Route path="/letterboxd/journal" element={<Journal />} />
       </Routes>
     </BrowserRouter>
   );
