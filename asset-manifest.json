@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Letterboxd-Clone/static/css/main.51f1de53.css",
-    "main.js": "/Letterboxd-Clone/static/js/main.9e6ee5fd.js",
+    "main.js": "/Letterboxd-Clone/static/js/main.06bffd4f.js",
     "index.html": "/Letterboxd-Clone/index.html",
     "main.51f1de53.css.map": "/Letterboxd-Clone/static/css/main.51f1de53.css.map",
-    "main.9e6ee5fd.js.map": "/Letterboxd-Clone/static/js/main.9e6ee5fd.js.map"
+    "main.06bffd4f.js.map": "/Letterboxd-Clone/static/js/main.06bffd4f.js.map"
   },
   "entrypoints": [
     "static/css/main.51f1de53.css",
-    "static/js/main.9e6ee5fd.js"
+    "static/js/main.06bffd4f.js"
   ]
 }
