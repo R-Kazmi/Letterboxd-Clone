@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link
                 className="transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500"
                 aria-current="page"
-                to="/letterboxd"
+                to="/letterboxd-clone"
               >
                 Home
               </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
               <Link
                 className="transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500"
                 aria-current="page"
-                to="/letterboxd/watchlist/1"
+                to="/letterboxd-clone/watchlist/1"
               >
                 Watchlist
               </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link
                 className="transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500"
                 aria-current="page"
-                to="/letterboxd/diary/1"
+                to="/letterboxd-clone/diary/1"
               >
                 Diary
               </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
               <Link
                 className="transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500"
                 aria-current="page"
-                to="/letterboxd/searchFilms"
+                to="/letterboxd-clone/searchFilms"
               >
                 Search
               </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link
                 className="transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500"
                 aria-current="page"
-                to="/letterboxd/journal"
+                to="/letterboxd-clone/journal"
               >
                 Journal
               </Link>

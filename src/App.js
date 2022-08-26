@@ -15,17 +15,19 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <BrowserRouter>
-
       <Navbar />
 
       <Routes>
-        <Route path="/letterboxd" element={<Films />} />
-        <Route path="/letterboxd/searchFilms" element={<SearchFilm />} />
-        <Route path="/letterboxd/movie-detail/:movieId" element={<MovieDetail />} />
-        <Route path="/letterboxd/tv-detail/:tvId" element={<TvDetail />} />
-        <Route path="/letterboxd/watchlist/:userId" element={<Watchlist />} />
-        <Route path="/letterboxd/diary/:userId" element={<Diary />} />
-        <Route path="/letterboxd/journal" element={<Journal />} />
+        <Route path="/letterboxd-clone" element={<Films />} />
+        <Route path="/letterboxd-clone/searchFilms" element={<SearchFilm />} />
+        <Route
+          path="/letterboxd-clone/movie-detail/:movieId"
+          element={<MovieDetail />}
+        />
+        <Route path="/letterboxd-clone/tv-detail/:tvId" element={<TvDetail />} />
+        <Route path="/letterboxd-clone/watchlist/:userId" element={<Watchlist />} />
+        <Route path="/letterboxd-clone/diary/:userId" element={<Diary />} />
+        <Route path="/letterboxd-clone/journal" element={<Journal />} />
       </Routes>
     </BrowserRouter>
   );
